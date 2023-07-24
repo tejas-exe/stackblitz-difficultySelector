@@ -1,0 +1,52 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.fDiv{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.displayDifficulty {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menulist {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menuitem {
+  /* border: 1px solid black; */
+  background-color: lightgrey;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hoverTrue {
+  background-color: lightblue;
+}
+.select{
+  background-color: rgb(65, 186, 226);
+}
+
+.mainDiv {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
